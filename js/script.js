@@ -5,8 +5,8 @@ $('.slider').slick({
   speed: 1800,
   slidesToShow: 1,
   slidesToScroll: 1,
-  // autoplay: true,
-  // autoplaySpeed: 4000,
+  autoplay: true,
+  autoplaySpeed: 4000,
 })
 
 $('.destination-slide').slick({
@@ -53,6 +53,8 @@ $('.travel-exp-slide').slick({
   arrow: true,
   slidesToShow: 3,
   slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 4000,
   responsive: [
     {
       breakpoint: 992,
@@ -74,6 +76,8 @@ $('.testimonials-slide').slick({
   arrow: false,
   slidesToShow: 1,
   slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 6000,
 })
 
 $('.social-slide').slick({
