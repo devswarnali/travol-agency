@@ -265,6 +265,10 @@ select {
     padding-left: 15px;
 }
 
+.navbar-collapse .navbar-toggler-icon{
+    display: none;
+}
+
 .header-menu .dropdown-toggle::after {
     box-sizing: content-box;
     display: inline-block;
@@ -1631,6 +1635,10 @@ input[type="submit"]{
     .collapse:not(.show) {
         transition: all .4s ease-in-out;
         transform: translateX(100%);
+    }
+
+    .navbar-collapse .navbar-toggler-icon{
+        display: block;
     }
 
     .navbar-collapse .navbar-toggler-icon{
