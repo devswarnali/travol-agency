@@ -59,6 +59,8 @@ h6 span,
 
 h1,
 .h1-title {
+    max-width: 920px;
+    text-align: center;
     font-weight: 700;
     font-size: 75px;
     color: #fff;
@@ -404,7 +406,7 @@ select {
 
 .testimonials-slide .slick-dots {
     bottom: -45px;
-    left: 32%;
+    left: 42%;
 }
 
 .slider .slick-dots li::marker,
@@ -1302,11 +1304,10 @@ input[type="submit"] {
 
 .testimonials-box {
     width: 100%;
-    height: 100%;
+    height: calc(100% + 60px);
     background-color: #fff;
-    padding: 60px 45px 45px 45px;
+    padding: 60px 45px 15px 45px;
     position: relative;
-    margin-bottom: -70px;
     z-index: 1;
 }
 
@@ -2362,6 +2363,14 @@ input[type="submit"] {
         font-size: 14.5px;
     }
 
+    h1, .h1-title {
+        font-size: 26px;
+    }
+    
+    .home-section-subheading {
+        font-size: 9px;
+    }
+
     input[type="text"],
     input[type="email"],
     input[type="tel"],
@@ -2392,7 +2401,21 @@ input[type="submit"] {
     }
 }
 
+@media(max-width: 330px){
+    .home-section-subheading {
+        font-size: 8.4px;
+    }
+}
+
 @media(max-width: 320px) {
+    h1, .h1-title {
+        font-size: 25px;
+    }
+    
+    .home-section-subheading {
+        font-size: 7.8px;
+    }
+
     input[type="text"],
     input[type="email"],
     input[type="tel"],
